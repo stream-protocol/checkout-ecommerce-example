@@ -4,7 +4,7 @@ const Footer = () => {
   const navigation = [
     {
       name: "Twitter",
-      href: "https://twitter.com/stream_protocol",
+      href: "https://twitter.com/stream_payments",
       icon: (
         props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
       ) => (
