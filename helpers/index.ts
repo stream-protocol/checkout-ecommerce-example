@@ -1,1 +1,1 @@
-export * from './candypay';
+export * from './streampay';

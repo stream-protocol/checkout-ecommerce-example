@@ -1,16 +1,16 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import { candypay } from "../../helpers";
+import { streampay } from "../../helpers";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
     const { items } = req.body;
 
     try {
-      const response = await candypay.session.create({
+      const response = await streampay.session.create({
         success_url: "https://streampayments.vercel.app/success",
         cancel_url: "https://streampayments.vercel.app/",
-        tokens: ["samo", "dust"],
+        tokens: ["STR", "dust"],
         items: items,
       });
 

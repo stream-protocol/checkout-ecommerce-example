@@ -151,18 +151,18 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@candypay/checkout-sdk@^0.1.21":
+"@streampay/checkout-sdk@^0.1.21":
   version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@candypay/checkout-sdk/-/checkout-sdk-0.1.21.tgz#59c6cf559d7e790d74945f6d03a2084b6c43c4a3"
+  resolved "https://registry.yarnpkg.com/@streampay/checkout-sdk/-/checkout-sdk-0.1.21.tgz#59c6cf559d7e790d74945f6d03a2084b6c43c4a3"
   integrity sha512-LJhRpEHR65Mk758WTu8351ludVXzk5vAv8wLbys3mPV8saKosLVsp/owQS7MiK7Z/1Y3dxHJMmybrzT2GhiHbg==
   dependencies:
     "@types/node" "18.7.18"
     axios "^0.27.2"
     ts-jest "^29.0.1"
 
-"@candypay/react-checkout-sdk@^1.0.5":
+"@streampay/react-checkout-sdk@^1.0.5":
   version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@candypay/react-checkout-sdk/-/react-checkout-sdk-1.0.5.tgz#efd85afd40b407841e9383c545eada8f2431ae51"
+  resolved "https://registry.yarnpkg.com/@streampay/react-checkout-sdk/-/react-checkout-sdk-1.0.5.tgz#efd85afd40b407841e9383c545eada8f2431ae51"
   integrity sha512-dblNf45Y7YfJCKj1gPcqvCPxKc7MJ7nBGEHZDQbQmtBSUITXvRts6X5p8hiSX3oC+/fgk9S9XmStGp1isqLi8w==
   dependencies:
     "@chakra-ui/react" "^2.3.4"

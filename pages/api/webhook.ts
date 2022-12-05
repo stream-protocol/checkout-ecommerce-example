@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { send } from "@ayshptk/msngr";
 
-import { candypay } from "../../helpers";
+import { streampay } from "../../helpers";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {

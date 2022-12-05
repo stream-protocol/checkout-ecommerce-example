@@ -6,37 +6,37 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "Stream Tee",
+      name: "Stream Kids Jumper",
       href: "#",
-      price: 0.02,
-      color: "Eagle Black",
+      price: 29.00,
+      color: "Dark Blue",
       imageSrc:
-        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1668956691/Screenshot_2022-11-20_203304_mibz2y.png",
+        "https://imgur.com/7MUZwiI",
       imageAlt:
-        "Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.",
+        "This Kids body with a nice front print is a must-have for every wardrobe. It fits great and feels comfortable.",
     },
     {
       id: 2,
-      name: "Stream Hoodie",
+      name: "Stream Pay Hoodie",
       href: "#",
-      price: 0.03,
-      color: "Washed Black",
+      price: 45.0,
+      color: "White",
       imageSrc:
-        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1668956686/Screenshot_2022-11-20_203344_m9kb6e.png",
+        "https://i.imgur.com/mp7Qvqv.png",
       imageAlt:
-        "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
+        "Classic Hooded Sweatshirt In French Terry Cloth made with organic cotton, featuring The StreamPay logo Printed on the chest.",
     },
     {
       id: 3,
-      name: "Throwback Hip Bag",
+      name: "Stream Pay Street Wear Hoodie",
       href: "#",
-      color: "Salmon",
-      price: 0.04,
+      color: "White",
+      price: 49.80,
       quantity: 1,
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
+        "https://imgur.com/ixdE8Af",
       imageAlt:
-        "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
+        "The Basic Oversize Hoody is super comfortable and made from a soft cotton blend. The hood can be adjusted with a drawstring that has taped ends. The kangaroo pocket and wide ribbing on the sleeves and hem add even more comfort.",
     },
   ];
   const router = useRouter();

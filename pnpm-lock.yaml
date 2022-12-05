@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ayshptk/msngr': ^0.1.2
-  '@candypay/checkout-sdk': ^0.1.22
-  '@candypay/react-checkout-sdk': ^0.1.0
+  '@streampay/checkout-sdk': ^0.1.22
+  '@streampay/react-checkout-sdk': ^0.1.0
   '@headlessui/react': ^1.7.3
   '@heroicons/react': ^2.0.12
   '@tailwindcss/aspect-ratio': ^0.4.2
@@ -24,8 +24,8 @@ specifiers:
 
 dependencies:
   '@ayshptk/msngr': 0.1.2
-  '@candypay/checkout-sdk': 0.1.22_typescript@4.8.4
-  '@candypay/react-checkout-sdk': 0.1.0_rj7ozvcq3uehdlnj3cbwzbi5ce
+  '@streampay/checkout-sdk': 0.1.22_typescript@4.8.4
+  '@streampay/react-checkout-sdk': 0.1.0_rj7ozvcq3uehdlnj3cbwzbi5ce
   '@headlessui/react': 1.7.3_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.12_react@18.2.0
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.1
@@ -204,7 +204,7 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@candypay/checkout-sdk/0.1.22_typescript@4.8.4:
+  /@streampay/checkout-sdk/0.1.22_typescript@4.8.4:
     resolution: {integrity: sha512-FW6qNFUMYQgmW1BQiskxldwuAtmMvcLDFUcUFOFYtZCvssyP37lazH/MoG+Bkyy0YxvftVcUo9c0+rPuQmd8Ag==}
     dependencies:
       '@types/node': 18.7.18
@@ -220,7 +220,7 @@ packages:
       - typescript
     dev: false
 
-  /@candypay/react-checkout-sdk/0.1.0_rj7ozvcq3uehdlnj3cbwzbi5ce:
+  /@streampay/react-checkout-sdk/0.1.0_rj7ozvcq3uehdlnj3cbwzbi5ce:
     resolution: {integrity: sha512-XCVo33Ndt8iXW6ZIrAan2/KVOam3qaI9dAc0R0QXChNP2aIUYtQgCNQ7VrpdzzolpUy99HsK0JwtffjY9wd41g==}
     peerDependencies:
       react: ^18.2.0
