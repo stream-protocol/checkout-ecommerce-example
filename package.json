@@ -10,8 +10,8 @@
     },
     "dependencies": {
         "@ayshptk/msngr": "^0.1.2",
-        "@streampay/checkout-ecommerce-sdk": "^1.1.1",
-        "@streampay/react-checkout-sdk": "^0.1.0",
+        "@candypay/checkout-sdk": "^0.1.22",
+        "@candypay/react-checkout-sdk": "^0.1.0",
         "@headlessui/react": "^1.7.3",
         "@heroicons/react": "^2.0.12",
         "@tailwindcss/aspect-ratio": "^0.4.2",
