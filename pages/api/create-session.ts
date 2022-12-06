@@ -8,9 +8,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
       const response = await streampay.session.create({
-        success_url: "https://streampayments.vercel.app/success",
-        cancel_url: "https://streampayments.vercel.app/",
-        tokens: ["STR", "dust"],
+        success_url: "https://checkout.streampayments.app/success",
+        cancel_url: "https://checkout.streampayments.app/",
+        tokens: ["STR", "SOL", "USDC"],
         items: items,
       });
 
