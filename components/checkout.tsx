@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { CheckoutButton } from "@candypay/react-checkout-sdk";
+import { CheckoutButton } from "@streampay/react-checkout-sdk";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import axios from "axios";
@@ -82,7 +82,7 @@ export const Checkout = ({ open, setOpen, products }: Props) => {
                               className="-m-2 p-2 text-gray-400 hover:text-gray-500"
                               onClick={() => setOpen(false)}
                             >
-                              <span className="sr-only">Close window</span>
+                              <span className="sr-only">Close panel</span>
                               <XMarkIcon
                                 className="h-6 w-6"
                                 aria-hidden="true"

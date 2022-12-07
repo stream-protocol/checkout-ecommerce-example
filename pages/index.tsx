@@ -6,37 +6,39 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "Stream Kids Jumper",
+      name: "Fashion Hoodie",
       href: "#",
-      price: 29.00,
-      color: "Dark Blue",
+      price: 79.00,
+      color: "Pure White",
+      quantity: 1,
       imageSrc:
-        "https://imgur.com/7MUZwiI",
+        "https://i.imgur.com/ixdE8Af.png",
       imageAlt:
-        "This Kids body with a nice front print is a must-have for every wardrobe. It fits great and feels comfortable.",
+        "FASHION HOODED SWEATSHIRT IN FRENCH TERRYCLOTH MADE WITH ORGANIC COTTON, FEATURING THE STREAM PAY LOGO PRINTED ON THE CHEST.",
     },
     {
       id: 2,
-      name: "Stream Pay Hoodie",
+      name: "Classic Streetwear Hoodie",
       href: "#",
-      price: 45.0,
+      price: 49.00,
       color: "White",
+      quantity: 2,
       imageSrc:
         "https://i.imgur.com/mp7Qvqv.png",
       imageAlt:
-        "Classic Hooded Sweatshirt In French Terry Cloth made with organic cotton, featuring The StreamPay logo Printed on the chest.",
+        "CLASSIC HOODED STREETWEAR IN FRENCH TERRYCLOTH MADE WITH ORGANIC COTTON, FEATURING THE STREAM PAY LOGO PRINTED ON THE CHEST.",
     },
     {
       id: 3,
-      name: "Stream Pay Street Wear Hoodie",
+      name: "Kids Jumpsuit",
       href: "#",
-      color: "White",
-      price: 49.80,
+      color: "Dark Blue",
+      price: 24.90,
       quantity: 1,
       imageSrc:
-        "https://imgur.com/ixdE8Af",
+        "https://i.imgur.com/7MUZwiI.png",
       imageAlt:
-        "The Basic Oversize Hoody is super comfortable and made from a soft cotton blend. The hood can be adjusted with a drawstring that has taped ends. The kangaroo pocket and wide ribbing on the sleeves and hem add even more comfort.",
+        "KIDS JUMPSUIT IN FRENCH TERRYCLOTH MADE WITH ORGANIC COTTON, FEATURING THE STREAM PAY LOGO PRINTED ON THE CHEST.",
     },
   ];
   const router = useRouter();
@@ -45,8 +47,8 @@ const Home: NextPage = () => {
       <div className="bg-white">
         <div className="mx-auto max-w-7xl overflow-hidden py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="flex flex-col text-center w-full mb-20">
-      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Our latest eCommerce demo products</h2>
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Pay with Solana, Stream Token or USDC</h1>
+      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Our latest demo products</h2>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Pay with Solana, STR, and USDC</h1>
     </div>
           <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
             {products.map((product) => (
