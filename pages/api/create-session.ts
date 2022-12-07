@@ -8,8 +8,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
       const response = await streampay.session.create({
-        success_url: "https://ecommerce.streampayment.app/success",
-        cancel_url: "https://ecommerce.streampayment.app/",
+        success_url: "https://ecommerce.streamprotocol.app/success",
+        cancel_url: "https://ecommerce.streamprotocol.app/",
         tokens: ["str", "samo", "dust"],
         items: items,
       });
