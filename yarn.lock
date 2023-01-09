@@ -198,35 +198,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@streampay/checkout-sdk@npm:^0.1.22":
-  version: 0.1.30
-  resolution: "@streampay/checkout-sdk@npm:0.1.30"
-  dependencies:
-    "@types/node": 18.7.18
-    axios: ^0.27.2
-    svix: ^0.70.0
-  checksum: 25f420e6c580d393a92c76b0d69330cb61e6a31d3dce722dbfeed153f19fcccea95556b3ca9d1f3ea79844df8961516cd9759a27405a2c5094346b0c6159de69
-  languageName: node
-  linkType: hard
-
-"@streampay/react-checkout-sdk@npm:^0.1.0":
-  version: 0.1.2
-  resolution: "@streampay/react-checkout-sdk@npm:0.1.2"
-  dependencies:
-    "@chakra-ui/react": ^2.3.4
-    "@emotion/react": ^11.10.4
-    "@emotion/styled": ^11.10.4
-    "@stitches/react": ^1.2.8
-    axios: ^0.27.2
-    framer-motion: ^7.3.6
-    pako: ^2.0.4
-    react-loader-spinner: ^5.3.4
-  peerDependencies:
-    react: ^18.2.0
-  checksum: 7cf4da8a51d11e865baa00bb4f67ee4903ea4ccc111ad79b63915c7ee0515aa21bc76c390fefb913b26563315913c7961fbddf9aa3e6a0b334c4370c15233ada
-  languageName: node
-  linkType: hard
-
 "@chakra-ui/accordion@npm:2.1.4":
   version: 2.1.4
   resolution: "@chakra-ui/accordion@npm:2.1.4"
@@ -1895,6 +1866,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@streampay/checkout-sdk@npm:^0.1.22":
+  version: 0.1.30
+  resolution: "@streampay/checkout-sdk@npm:0.1.30"
+  dependencies:
+    "@types/node": 18.7.18
+    axios: ^0.27.2
+    svix: ^0.70.0
+  checksum: 25f420e6c580d393a92c76b0d69330cb61e6a31d3dce722dbfeed153f19fcccea95556b3ca9d1f3ea79844df8961516cd9759a27405a2c5094346b0c6159de69
+  languageName: node
+  linkType: hard
+
+"@streampay/react-checkout-sdk@npm:^0.1.0":
+  version: 0.1.2
+  resolution: "@streampay/react-checkout-sdk@npm:0.1.2"
+  dependencies:
+    "@chakra-ui/react": ^2.3.4
+    "@emotion/react": ^11.10.4
+    "@emotion/styled": ^11.10.4
+    "@stitches/react": ^1.2.8
+    axios: ^0.27.2
+    framer-motion: ^7.3.6
+    pako: ^2.0.4
+    react-loader-spinner: ^5.3.4
+  peerDependencies:
+    react: ^18.2.0
+  checksum: 7cf4da8a51d11e865baa00bb4f67ee4903ea4ccc111ad79b63915c7ee0515aa21bc76c390fefb913b26563315913c7961fbddf9aa3e6a0b334c4370c15233ada
+  languageName: node
+  linkType: hard
+
 "@swc/helpers@npm:0.4.11":
   version: 0.4.11
   resolution: "@swc/helpers@npm:0.4.11"
@@ -2553,33 +2553,6 @@ __metadata:
   checksum: 91d8611d09af725e422a23993890d22b2b72b4cabf7239651856950c76b4bf53fe0d0da7c5e4db05180e898e4e647220e78c9fbc976113bd96d603d1fcbfcb99
   languageName: node
   linkType: hard
-
-"streampay-payment-demo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "streampay-payment-demo@workspace:."
-  dependencies:
-    "@ayshptk/msngr": ^0.1.2
-    "@streampay/checkout-sdk": ^0.1.22
-    "@streampay/react-checkout-sdk": ^0.1.0
-    "@headlessui/react": ^1.7.3
-    "@heroicons/react": ^2.0.12
-    "@tailwindcss/aspect-ratio": ^0.4.2
-    "@tailwindcss/typography": ^0.5.7
-    "@types/node": 18.11.4
-    "@types/react": 18.0.21
-    "@types/react-dom": 18.0.6
-    autoprefixer: ^10.4.12
-    axios: ^1.1.3
-    eslint: 8.26.0
-    eslint-config-next: 12.3.1
-    next: 12.3.1
-    postcss: ^8.4.18
-    react: 18.2.0
-    react-dom: 18.2.0
-    tailwindcss: ^3.2.1
-    typescript: 4.8.4
-  languageName: unknown
-  linkType: soft
 
 "caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001406, caniuse-lite@npm:^1.0.30001426":
   version: 1.0.30001436
@@ -3566,7 +3539,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -5288,7 +5261,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5301,7 +5274,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5505,6 +5478,33 @@ __metadata:
   checksum: fb58f5e46b6923ae67b87ad5ef1c5ab6d427a17db0bead84570c2df3cd50b4ceb880ebdba2d60726588272890bae842a744e1ecce5bd2a2a582fccd5068309eb
   languageName: node
   linkType: hard
+
+"streampay-checkout-ecommerce-payments@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "streampay-checkout-ecommerce-payments@workspace:."
+  dependencies:
+    "@ayshptk/msngr": ^0.1.2
+    "@headlessui/react": ^1.7.3
+    "@heroicons/react": ^2.0.12
+    "@streampay/checkout-sdk": ^0.1.22
+    "@streampay/react-checkout-sdk": ^0.1.0
+    "@tailwindcss/aspect-ratio": ^0.4.2
+    "@tailwindcss/typography": ^0.5.7
+    "@types/node": 18.11.4
+    "@types/react": 18.0.21
+    "@types/react-dom": 18.0.6
+    autoprefixer: ^10.4.12
+    axios: ^1.1.3
+    eslint: 8.26.0
+    eslint-config-next: 12.3.1
+    next: 12.3.1
+    postcss: ^8.4.18
+    react: 18.2.0
+    react-dom: 18.2.0
+    tailwindcss: ^3.2.1
+    typescript: 4.8.4
+  languageName: unknown
+  linkType: soft
 
 "string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.2.3":
   version: 4.2.3
@@ -5861,11 +5861,11 @@ __metadata:
 
 "typescript@patch:typescript@4.8.4#~builtin<compat/typescript>":
   version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 301459fc3eb3b1a38fe91bf96d98eb55da88a9cb17b4ef80b4d105d620f4d547ba776cc27b44cc2ef58b66eda23fe0a74142feb5e79a6fb99f54fc018a696afa
+  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
   languageName: node
   linkType: hard
 
